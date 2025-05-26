@@ -3,7 +3,7 @@
     margin: 20;                      /* Remove default margin */
     padding: 30;
     text-align: center;
-    border-radius: 10%;
+    border-radius: 25px;
     background-color: #a03b0083;      /* Light gray background */
 }
 nav ul {
@@ -21,7 +21,6 @@ nav ul li a {
     padding: 8px 16px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-radius: 100%;
     transition: background 0.2s;
     display: inline-block;
 }
@@ -34,12 +33,18 @@ nav ul li a:active {
     background-color: #cf8068;  /* Darker on hover */
 }
 
+/*untuk mengubah seluruh bagian yang ada di bawah nav bar home & shalleydesigns*/
+.contentmain {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .aboutmetitle{
     display: flex;
     align-items: center; /* Vertically center */
     gap: 16px; 
     margin: 0;
 }
+
 .content{
     margin: 0;
     padding: 0;
@@ -54,6 +59,41 @@ nav ul li a:active {
 
 .aboutsection{
     margin: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
+
+.socialmedialist{
+    display: flex;
+    align-items: center; /* Vertically center */
+    gap: 16px; 
+    margin: 0;
+}
+
+.socialmedialist a {
+    text-decoration: none; /* Remove underline */
+    color: #461705; /* Link color */
+    padding-top: 16px;
+    transition: background 0.2s;
+}
+
+.socialmedialist img {
+    scale: 0.05;
+}
+
+.socialmedia ul, .socialmedia li{
+    padding: 0;
+    margin: 0;
+}
+
+.socialmedialist a, .socialmedialist img, .socialmedialist li {
+    margin: 0;
+    padding: 0;
+    display: inline-block; /* Ensure links and images are inline */
+    border: none; /* Remove border */
+}
+
+.socialmedia{
+    margin: 20px;
+    padding: 0px;
     text-align: justify;
 }
