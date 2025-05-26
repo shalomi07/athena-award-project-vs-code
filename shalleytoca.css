@@ -1,8 +1,3 @@
-/*untuk mengubah seluruh bagian yang ada di bawah nav bar home & shalleydesigns*/
-.contentmain {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 .container header h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 20px;
@@ -39,7 +34,6 @@ nav ul li a:active {
     background-color: #cf8068;  /* Darker on hover */
 }
 
-
 .socialmedialist{
     display: flex;
     align-items: center; /* Vertically center */
@@ -70,8 +64,28 @@ nav ul li a:active {
     border: none; /* Remove border */
 }
 
+.socialmedia ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}   
+
+.socialmedia li {
+    display: inline; /* Display list items inline */
+    margin-right: 10px; /* Space between items */
+    padding: 0; /* Remove padding */
+    margin-left: 0px; /* Remove left margin */
+}
+
+.socialmedia img {
+    display: inline; /* Display list items inline */
+    margin-right: 0px; /* Space between items */
+    padding: 0px; /* Remove padding */
+    margin-left: 0px; /* Remove left margin */
+}
+
 .socialmedia{
-    margin: 20px;
+    margin: 0px;
     padding: 0px;
     text-align: justify;
 }

@@ -36,6 +36,10 @@ nav ul li a:active {
 /*untuk mengubah seluruh bagian yang ada di bawah nav bar home & shalleydesigns*/
 .contentmain {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffd4c1; /* Light gray background */
+    padding: 20px; /* Add some padding */
+    margin: 10px; /* Remove default margin */
+    border-radius: 5px; /* Rounded corners */
 }
 
 .aboutmetitle{
@@ -59,41 +63,5 @@ nav ul li a:active {
 
 .aboutsection{
     margin: 20px;
-    text-align: justify;
-}
-
-.socialmedialist{
-    display: flex;
-    align-items: center; /* Vertically center */
-    gap: 16px; 
-    margin: 0;
-}
-
-.socialmedialist a {
-    text-decoration: none; /* Remove underline */
-    color: #461705; /* Link color */
-    padding-top: 16px;
-    transition: background 0.2s;
-}
-
-.socialmedialist img {
-    scale: 0.05;
-}
-
-.socialmedia ul, .socialmedia li{
-    padding: 0;
-    margin: 0;
-}
-
-.socialmedialist a, .socialmedialist img, .socialmedialist li {
-    margin: 0;
-    padding: 0;
-    display: inline-block; /* Ensure links and images are inline */
-    border: none; /* Remove border */
-}
-
-.socialmedia{
-    margin: 20px;
-    padding: 0px;
     text-align: justify;
 }
