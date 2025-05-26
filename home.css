@@ -1,0 +1,59 @@
+.container header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20;                      /* Remove default margin */
+    padding: 30;
+    text-align: center;
+    border-radius: 10%;
+    background-color: #a03b0083;      /* Light gray background */
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-color: antiquewhite;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;      /* Remove underline */
+    color: #461705;               
+    padding: 8px 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 100%;
+    transition: background 0.2s;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #d3a293;  /* Darker on hover */
+}
+
+nav ul li a:active {
+    background-color: #cf8068;  /* Darker on hover */
+}
+
+.aboutmetitle{
+    display: flex;
+    align-items: center; /* Vertically center */
+    gap: 16px; 
+    margin: 0;
+}
+.content{
+    margin: 0;
+    padding: 0;
+}
+
+.aboutmetitle h2,
+.aboutmetitle p {
+    margin: 0;   /* Remove default margin */
+    padding: 0;
+
+}
+
+.aboutsection{
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+}
