@@ -1,10 +1,21 @@
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    header{
+        font-size: 16px;
+    }
+
+}
 .container header h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 20;                      /* Remove default margin */
+    margin: 20;                    
     padding: 30;
     text-align: center;
     border-radius: 25px;
-    background-color: #a03b0083;      /* Light gray background */
+    font-size: 30px;
+    background-image: linear-gradient(to right, #e4a068, #b37e53);     
+    color: #f3edeb;
 }
 nav ul {
     list-style: none;
@@ -16,7 +27,7 @@ nav ul {
 }
 
 nav ul li a {
-    text-decoration: none;      /* Remove underline */
+    text-decoration: none;      
     color: #461705;               
     padding: 8px 16px;
     padding-top: 20px;
@@ -26,27 +37,28 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #d3a293;  /* Darker on hover */
+    background-color: #d3a293;  
 }
 
 nav ul li a:active {
-    background-color: #cf8068;  /* Darker on hover */
+    background-color: #cf8068;  
 }
 
 /*untuk mengubah seluruh bagian yang ada di bawah nav bar home & shalleydesigns*/
 .contentmain {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #ffd4c1; /* Light gray background */
-    padding: 20px; /* Add some padding */
-    margin: 10px; /* Remove default margin */
+    background-color: #ffd4c1; 
+    box-shadow: 0 4px 4px rgb(71, 63, 59);
+    padding: 20px; 
+    margin: 10px; 
     border-radius: 5px; /* Rounded corners */
 }
 
 .aboutmetitle{
     display: flex;
-    align-items: center; /* Vertically center */
     gap: 16px; 
     margin: 0;
+    color: #c5704e;
 }
 
 .content{
@@ -64,4 +76,5 @@ nav ul li a:active {
 .aboutsection{
     margin: 20px;
     text-align: justify;
+    color: rgb(146, 72, 113);
 }
