@@ -78,3 +78,31 @@ nav ul li a:active {
     text-align: justify;
     color: rgb(146, 72, 113);
 }
+
+.indonesian{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.indonesianbutton{
+    background-color:#e4a068;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    box-shadow:rgb(41, 35, 33);
+}
+.indonesian h2{
+    color: #c5704e;
+}
+.indonesianbutton a{
+    text-decoration: none;
+    color: #f3edeb;
+}
+.indonesianbutton:hover{
+    background-color: #b37e53;
+}
+.indonesianbutton:active{
+    background-color: rgb(88, 60, 34);
+}

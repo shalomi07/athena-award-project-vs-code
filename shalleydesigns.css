@@ -40,25 +40,39 @@ nav ul li a:active {
 }
 
 
-.socialmedialist{
-    display: flex;
-    align-items: center; /* Vertically center */
-    gap: 16px; 
-    margin: 0;
-}
+
 
 .socialmedialist a {
-    text-decoration: none; /* Remove underline */
-    color: #461705; /* Link color */
+    text-decoration: none; 
+    color: #461705; 
     padding-top: 16px;
     transition: background 0.2s;
 }
 
-.socialmedialist img {
-    scale: 0.05;
-}
+
 
 .socialmedia ul, .socialmedia li{
+    padding: 0;
+    margin: 0;
+    list-style: none; 
+}
+
+.socialmedialist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.socialmedialist li {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Adjust gap as needed */
+    padding: 0;
+    }
+
+.socialmedialist img {
+    width: 32px;
+    height: 32px;
     padding: 0;
     margin: 0;
 }
@@ -66,8 +80,6 @@ nav ul li a:active {
 .socialmedialist a, .socialmedialist img, .socialmedialist li {
     margin: 0;
     padding: 0;
-    display: inline-block; /* Ensure links and images are inline */
-    border: none; /* Remove border */
 }
 
 .socialmedia{
