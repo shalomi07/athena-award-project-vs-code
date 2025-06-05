@@ -58,6 +58,7 @@ nav ul li a:active {
     color: #461705; 
     padding-top: 16px;
     transition: background 0.2s;
+    align-items: center;
 }
 
 
@@ -66,26 +67,33 @@ nav ul li a:active {
     padding: 0;
     margin: 0;
     list-style: none; 
+    align-items: center;
 }
 
 .socialmedialist {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: grid;
+    grid-template:
+    "a b";
+    grid-template-columns: 50px auto; /* Adjust the first column width as needed */
 }
 
 .socialmedialist li {
-    display: flex;
+    grid: "b";
     align-items: center;
     gap: 12px; /* Adjust gap as needed */
     padding: 0;
     }
 
 .socialmedialist img {
+    grid: "a";
     width: 32px;
     height: 32px;
     padding: 0;
     margin: 0;
+    align-items: center;
 }
 
 .socialmedialist a, .socialmedialist img, .socialmedialist li {
