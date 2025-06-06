@@ -34,62 +34,41 @@ nav ul li a:active {
     background-color: #cf8068;  /* Darker on hover */
 }
 
+
+.contentmain
+{
+    margin: 20px;
+    padding-left: 20px;
+
+}
+
+
+
+
 .socialmedialist{
     display: flex;
-    align-items: center; /* Vertically center */
-    gap: 16px; 
-    margin: 0;
+    align-items: center;
+    gap: 10px; 
+    margin: 20px;
 }
 
 .socialmedialist a {
-    text-decoration: none; /* Remove underline */
-    color: #461705; /* Link color */
+    text-decoration: none; 
+    color: #461705; 
     padding-top: 16px;
     transition: background 0.2s;
 }
-
-.socialmedialist img {
-    display: inline-block; /* Ensure images are inline */
-    vertical-align: middle;
-    margin-right: 4px; /* Adjust as needed */
-    width: 24px;       /* Optional: set icon size */
-    height: 24px;
-    padding: 0px;
+.socialmedialist img{
+    width: 20px;
 }
 
-.socialmedia ul, .socialmedia li{
-    padding: 0;
-    margin: 0;
+.socialmedialist a, .socialmedialist img{
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 10px; 
+    padding: 8px;
 }
 
-.socialmedialist a{
-    vertical-align: middle;
-    margin: 0;
-    padding: 0;
-}
-
-.socialmedia ul {
-    list-style: none; /* Remove bullet points */
-    padding: 0; /* Remove padding */
-    margin: 0; /* Remove margin */
-}   
-
-.socialmedia li {
-    display: inline; /* Display list items inline */
-    margin-right: 10px; /* Space between items */
-    padding: 0; /* Remove padding */
-    margin-left: 0px; /* Remove left margin */
-}
-
-.socialmedia img {
-    display: inline; /* Display list items inline */
-    margin-right: 0px; /* Space between items */
-    padding: 0px; /* Remove padding */
-    margin-left: 0px; /* Remove left margin */
-}
-
-.socialmedia{
-    margin: 0px;
-    padding: 0px;
-    text-align: justify;
+.socialmedia h2{
+    padding-top:  20px;
 }
