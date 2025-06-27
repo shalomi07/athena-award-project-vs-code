@@ -83,3 +83,23 @@ nav ul li a:active {
 .contentmain td{
     background-color: bisque;
 }
+
+.contentmain button{
+    background-color:#461705;
+    padding: 10px 20px;
+    margin: 20px;
+    color: white;
+
+}
+.contentmain a{
+    text-decoration: none;
+    color: #f3edeb;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.contentmain button:hover{
+    background-color: #b37e53;
+}
+.contentmain button:active{
+    background-color: rgb(88, 60, 34);
+}
